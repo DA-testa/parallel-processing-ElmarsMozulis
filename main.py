@@ -20,8 +20,8 @@ def main():
     data = list(map(int, input().split()))
 
     result = parallel_processing(int_n, int_m, data)
-    for thread_id, start_time in result:
-        print(thread_id, start_time)
+    for p_thread_id, start_time in result:
+        print(p_thread_id, start_time)
 
 
 if __name__ == "__main__":
